@@ -13,7 +13,7 @@
          }
          window.onload = function() {
 	     var map = loadJSON("forms.json");
-             var formID = GetURLParameter("formID");
+             var formID = GetURLParameter("id");
 	     var target = map[formID]; 
              if (target) {
                  window.location.href = target;
